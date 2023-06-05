@@ -1,0 +1,313 @@
+/* General Styling  */
+
+
+@font-face {
+    font-family: Merriweather;
+    src: url(../font/Merriweather/Merriweather-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(../font/Lato/Lato-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    font-family: Merriweather;
+}
+
+/* Header Styling */
+
+header nav {
+    text-align: end;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0.9375rem;
+}
+
+.nav_links a {
+    font-family: Lato;
+    text-decoration: none;
+    color: #202020;
+    font-size: 1.2rem;
+}
+
+.header_content {
+    background: url(../img/illustration1.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 9.5488rem;
+    margin-left: 9rem;
+    width: 81rem;
+    height: 31.4312rem;
+}
+
+.Download {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 0.625rem;
+    border-radius: 0.625rem;
+    font-size: 1.2rem;
+}
+
+.Subscribe {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 0.625rem;
+    border-radius: 0.625rem;
+    font-size: 1.2rem;
+    box-shadow: 0 0 2px 1px rgba(0,0,0,0.2);
+}
+
+/* Main Styling */
+
+.real_beauty {
+    background: url(../img/illustration2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 9.5488rem;
+    margin-left: 9rem;
+    width: 81rem;
+    height: 31.4312rem;
+}
+
+.real_beauty h2{
+    margin-left: 576px;
+    padding-bottom: 1.25rem;
+    width: 29.65rem;
+    height: 7.5rem;
+}
+
+.real_beauty p{
+    margin-left: 576px;
+    width: 31rem;
+    height: 8.6875rem;
+    margin-bottom: 1.25rem;
+}
+
+.expressivness {
+    background: url(../img/illustration3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 650px 0;
+    margin-top: 9.5488rem;
+    margin-left: 9rem;
+    width: 81rem;
+    height: 31.4312rem;
+    margin-bottom: 5.9719rem;
+}
+
+.expressivness h2 {
+    padding-bottom: 1.25rem;
+    width: 28rem;
+    height: 7.5rem;
+}
+
+.expressivness p {
+    width: 29.7681rem;
+    height: 6.25rem;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: black;
+    padding-bottom: 1.25rem;
+    width: 29.65rem;
+    height: 7.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-bottom: 1.25rem;
+    line-height: 2.375rem;
+}
+
+img:hover {
+    box-shadow: 2px 2px 10px 5px lightgray;
+}
+
+.header_content p{
+    width: 29.5rem;
+    height: 6.3rem;
+    margin-bottom: 1.25rem;
+}
+
+.bottom_content {
+    margin-left: 6.5rem;
+}
+
+.bottom_content h2 {
+    width: 43.1875rem;
+    height: 3.75rem;
+    margin-left: 17.375rem;
+    text-align: center;
+}
+
+.bottom_content p {
+    width: 50.9375rem;
+    height: 6.25rem;
+    margin-left: 13.0625rem;
+    text-align: center;
+}
+
+.bottom_content ul {
+    margin-bottom: 8.5031rem;
+}
+
+.bottom_content ul li {
+    display: inline-block;
+    margin-right: 4.7375rem;
+}
+
+.bottom_content ul li img {
+    width: 22.5rem;
+    height: 19.125rem;
+}
+
+.examples_of_use {
+    margin-bottom: 8rem;
+}
+
+.examples_of_use ul {
+    margin-left: 113px;
+}
+
+.examples_of_use li {
+    display: inline-block;
+}
+
+.examples_of_use h2 {
+    width: 24rem;
+    height: 3.75rem;
+    margin-left: 531px;
+}
+
+.examples_of_use p {
+    width: 52.1875rem;
+    height: 3.9375rem;
+    margin-bottom: 1rem;
+    margin-left: 303px;
+}
+
+.examples_of_use ul li img {
+    width: 36rem;
+    height: 20.25rem;
+    margin-bottom: 3.875rem;
+    margin-right: 3.875rem;
+}
+
+.download_illustrations {
+    text-align: center;
+}
+
+.download_illustrations h2 {
+    width: 34.1875rem;
+    height: 3.75rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.download_content {
+    width: 34.6875rem;
+    height: 13.5rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 4.375rem;
+}
+
+.membership {
+    width: 22.5rem;
+    height: 35.625rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(85, 172, 238, 0.1);
+    margin-bottom: 3.75rem;
+}
+
+.membership h3 {
+    font-size: 1.5rem;
+    padding-bottom: 2.8125rem;
+    padding-top: 3.75rem;
+}
+
+.membership h1{
+    font-size: 5rem;
+    padding-bottom: 2.8125rem;
+}
+
+.membership p{
+    display: inline; 
+    font-size: 1rem;
+    color: #7e7e7e;
+    padding-bottom: 0.75rem;
+}
+
+.membership ul {
+    list-style-type: none;
+    font-size: 1rem;
+    padding-bottom: 1.875rem;
+}
+
+.membership a {
+    text-decoration: none;
+    background-color: #55acee;
+    color: white;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 0.625rem;
+}
+
+.suggestions h2 {
+    width: 590px;
+    height: 60px;
+}
+
+.suggestions p {
+    font-size: 16px;
+    height: 24px;
+    color: #7e7e7e;
+    margin-bottom: 14px;
+    padding: 0;
+}
+
+.suggestions p:nth-of-type(2) {
+    color: black;
+}
+
+.suggestions ul li{
+    display: inline;
+    padding: 20px 10px;
+}
+
+.suggestions a{
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.suggestions li:nth-of-type(1) a {
+    color: black;
+}
+
+.suggestions li:nth-of-type(2) a {
+    color: rgb(255, 242, 0);
+}
+
+.suggestions li:nth-of-type(3) a{
+    color: #1da1f2;
+}
+
+.suggestions li:nth-of-type(4) a{
+    color: #ff0000;
+}
